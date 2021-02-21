@@ -1343,9 +1343,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@buncho/builder@npm:^0.13.5":
-  version: 0.13.5
-  resolution: "@buncho/builder@npm:0.13.5"
+"@buncho/builder@npm:^0.13.6":
+  version: 0.13.6
+  resolution: "@buncho/builder@npm:0.13.6"
   dependencies:
     "@babel/cli": ^7.12.17
     "@babel/core": ^7.12.17
@@ -1353,7 +1353,7 @@ __metadata:
     "@buncho/dotenv": 0.4.0
     "@buncho/register": 0.4.2
     "@buncho/utils": 0.4.2
-    "@buncho/webpack-config": 0.10.5
+    "@buncho/webpack-config": 0.10.6
     "@buncho/webpack-env": 0.5.0
     "@types/babel__core": ^7.1.12
     "@types/webpack-dev-server": ^3.11.1
@@ -1375,7 +1375,7 @@ __metadata:
   bin:
     app: ./bin/app.js
     lib: ./bin/lib.js
-  checksum: 9a7833a96bad17ea682446ae4df4b888c6af3718c37c5ee2e076e341c709a1f220b2686d2c4dfc7e2aab35ecbd2a522e54015930045e36a1e0e6d6c91411f806
+  checksum: d330038a504a7a102e89af095c3144e0107a68cb966dc4dbe86ce878edcea572076270ec428c66cc8db4da651837dbfb448a149d63e71c7b37a3e4894ae2a597
   languageName: node
   linkType: hard
 
@@ -1454,9 +1454,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@buncho/webpack-config@npm:0.10.5":
-  version: 0.10.5
-  resolution: "@buncho/webpack-config@npm:0.10.5"
+"@buncho/webpack-config@npm:0.10.6":
+  version: 0.10.6
+  resolution: "@buncho/webpack-config@npm:0.10.6"
   dependencies:
     "@buncho/utils": 0.4.2
     "@pmmmwh/react-refresh-webpack-plugin": ^0.4.3
@@ -1507,7 +1507,7 @@ __metadata:
       optional: true
     webpack-dev-server:
       optional: true
-  checksum: 673531a0a8ab6dde1cda782df0452cf18d6b869e9cf585ebcec44c0bd4e07d8c6ea4d01a89eaec765266ef2d99fa4c4cf9ad33f550b55a22edf4744230d761bc
+  checksum: 8fba6044b5a5e3f4e8156173996c527623582e68e2bc1cd4678061ebe7d72e386fff6837e61125e2f7a2857f91a0fb45e05f20b25516dcdffa87d43f389e2332
   languageName: node
   linkType: hard
 
@@ -2771,7 +2771,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app@workspace:."
   dependencies:
-    "@buncho/builder": ^0.13.5
+    "@buncho/builder": ^0.13.6
     "@buncho/eslint-config": ^0.7.1
     "@buncho/tsconfig": ^0.2.0
     "@prettier/plugin-xml": ^0.13.0
