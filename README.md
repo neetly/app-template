@@ -1,7 +1,7 @@
 # App Template
 
-![CI](https://github.com/BunchoDev/app-template/workflows/CI/badge.svg)
+![CI](https://github.com/neetly/app-template/workflows/CI/badge.svg)
 
 ```sh
-$ npx degit BunchoDev/app-template#main
+$ npx degit neetly/app-template#main
 ```
