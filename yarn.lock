@@ -1601,9 +1601,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@buncho/builder@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "@buncho/builder@npm:2.0.0"
+"@buncho/builder@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "@buncho/builder@npm:2.1.0"
   dependencies:
     "@babel/cli": ^7.15.7
     "@babel/core": ^7.15.8
@@ -1611,7 +1611,7 @@ __metadata:
     "@buncho/dotenv": 1.0.0
     "@buncho/register": 1.0.0
     "@buncho/utils": 1.0.0
-    "@buncho/webpack-config": 2.0.0
+    "@buncho/webpack-config": 2.1.0
     "@buncho/webpack-env": 1.0.0
     "@storybook/addon-essentials": ~6.3.12
     "@storybook/builder-webpack5": ~6.3.12
@@ -1643,7 +1643,7 @@ __metadata:
     app: ./bin/app.js
     lib: ./bin/lib.js
     storybook: ./bin/storybook.js
-  checksum: 01a776e44b050b4c1f64871cd1d1963f0ecedf534b8bbbebf235636014648c922eb16b3496e3e7e6eb0e2805ae54c3dc18fa3553d65129629173d78c2cd551c9
+  checksum: 350d519745a4bb0ddaef2ed5bc8a9c7af7e5b243291324b8b87d111714d03b95ed1dc0f16bec5c7a85557e04dbe254b27ca30308deb52b08962739334f7e1475
   languageName: node
   linkType: hard
 
@@ -1720,9 +1720,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@buncho/webpack-config@npm:2.0.0":
-  version: 2.0.0
-  resolution: "@buncho/webpack-config@npm:2.0.0"
+"@buncho/webpack-config@npm:2.1.0":
+  version: 2.1.0
+  resolution: "@buncho/webpack-config@npm:2.1.0"
   dependencies:
     "@buncho/utils": 1.0.0
     "@pmmmwh/react-refresh-webpack-plugin": ^0.5.1
@@ -1772,7 +1772,7 @@ __metadata:
       optional: true
     webpack-dev-server:
       optional: true
-  checksum: 1e8f22f8d74c90c881d3c43783838efa324072755a579888180c3428060486f170a6163e048c7ee2d8e3bdfd2b519dc5f3df0264921b9d4b51341d82e0166fee
+  checksum: 7e64af02839d0ac95f076350beb4c9ec6adff7199d04e5388f7d9cfe5c60fe92dc1fb3ffff317403bc0cfde3c19a681274c39902578fb800e2dd20411144fd4e
   languageName: node
   linkType: hard
 
@@ -5040,7 +5040,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app@workspace:."
   dependencies:
-    "@buncho/builder": ^2.0.0
+    "@buncho/builder": ^2.1.0
     "@buncho/eslint-config": ^2.1.0
     "@buncho/tsconfig": ^1.0.0
     "@prettier/plugin-xml": ^1.1.0
