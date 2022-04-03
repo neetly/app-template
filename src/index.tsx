@@ -1,9 +1,11 @@
 import { StrictMode } from "react";
-import { render } from "react-dom";
+import { createRoot } from "react-dom/client";
 
-render(
-  <StrictMode>
-    <div />
-  </StrictMode>,
-  document.querySelector("#root"),
-);
+const container = document.querySelector("#root");
+if (container) {
+  createRoot(container).render(
+    <StrictMode>
+      <div />
+    </StrictMode>,
+  );
+}
