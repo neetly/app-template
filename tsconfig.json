@@ -8,8 +8,6 @@
     "outDir": "./lib",
 
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
-    "types": ["@buncho/builder"],
-
-    "plugins": [{ "name": "typescript-plugin-css-modules" }]
+    "types": ["@buncho/builder"]
   }
 }
