@@ -1,13 +1,18 @@
+import "./index.scss";
+
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import { App } from "./App";
+import { routes } from "./routes";
+
+const router = createBrowserRouter(routes);
 
 const container = document.querySelector("#root");
 if (container) {
   createRoot(container).render(
     <StrictMode>
-      <App />
+      <RouterProvider router={router} />
     </StrictMode>,
   );
 }
