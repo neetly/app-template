@@ -1364,9 +1364,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@buncho/webpack-config@npm:6.0.0-rc.3":
-  version: 6.0.0-rc.3
-  resolution: "@buncho/webpack-config@npm:6.0.0-rc.3"
+"@buncho/webpack-config@npm:6.0.0-rc.4":
+  version: 6.0.0-rc.4
+  resolution: "@buncho/webpack-config@npm:6.0.0-rc.4"
   dependencies:
     "@babel/core": "npm:^7.20.2"
     "@neetly/babel-preset": "npm:^0.2.2"
@@ -1394,17 +1394,17 @@ __metadata:
   peerDependenciesMeta:
     webpack-dev-server:
       optional: true
-  checksum: 9df9dcc446b39e92fe240199c0ccb1b1155870f5fa26bf427690bfc8ac5ef216bf0654296f5f836482dd793508c6eb4cb55de3cd060bb2d96c6062619b6bdf39
+  checksum: acdd726b1198f37910ccecbad046e315bce8181f0099f450e7cc71ba33b6236e880abc4a4cdad15f4cbb75fbabd741d1a6ab4b62d22ae906098e2adf06ae6432
   languageName: node
   linkType: hard
 
-"@buncho/webpack-env@npm:6.0.0-rc.3":
-  version: 6.0.0-rc.3
-  resolution: "@buncho/webpack-env@npm:6.0.0-rc.3"
+"@buncho/webpack-env@npm:6.0.0-rc.4":
+  version: 6.0.0-rc.4
+  resolution: "@buncho/webpack-env@npm:6.0.0-rc.4"
   peerDependencies:
     "@types/react": "*"
     "@types/react-dom": "*"
-  checksum: de2efda468541dba3fdcc78da87d8aaa520500f5fc3ef12120b29cf64d931fa00fc4cc71d26fab8afb79f5e761378ae3c6de117ec9c9b27b9020c7f8ad7190e4
+  checksum: 64a3e2f53a2098222f1b6939e72ac65ed9aae445feda3e41e03b313caf712d647736c84f01df2196ad4b56b735b56d79df587c11dde7fe4c38d452f45657c259
   languageName: node
   linkType: hard
 
@@ -2536,7 +2536,7 @@ __metadata:
     "@types/react-dom": "npm:^18.0.9"
     "@typescript-eslint/eslint-plugin": "npm:^5.43.0"
     "@typescript-eslint/parser": "npm:^5.43.0"
-    buncho: "npm:6.0.0-rc.3"
+    buncho: "npm:6.0.0-rc.4"
     eslint: "npm:^8.28.0"
     prettier: "npm:^2.7.1"
     react: "npm:^18.2.0"
@@ -2799,13 +2799,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"buncho@npm:6.0.0-rc.3":
-  version: 6.0.0-rc.3
-  resolution: "buncho@npm:6.0.0-rc.3"
+"buncho@npm:6.0.0-rc.4":
+  version: 6.0.0-rc.4
+  resolution: "buncho@npm:6.0.0-rc.4"
   dependencies:
-    "@buncho/webpack-config": "npm:6.0.0-rc.3"
-    "@buncho/webpack-env": "npm:6.0.0-rc.3"
+    "@buncho/webpack-config": "npm:6.0.0-rc.4"
+    "@buncho/webpack-env": "npm:6.0.0-rc.4"
     clipanion: "npm:3.2.0-rc.14"
+    dotenv: "npm:^16.0.3"
+    dotenv-expand: "npm:^9.0.0"
     webpack: "npm:^5.75.0"
     webpack-cli: "npm:^5.0.0"
     webpack-dev-server: "npm:^4.11.1"
@@ -2818,7 +2820,7 @@ __metadata:
     typescript: "*"
   bin:
     buncho: ./bin/buncho.js
-  checksum: 1e167309fde018ee02c0b0b7b291b55936de2b3d91a60abc9eb06519dae6f843f806dd9563bfaf171f77da2f5f2e5b4b0654ecd3c0657440de76d9f55018c866
+  checksum: d4cf40f43813bc0897723d635dfa6546b73ac2dd08689cb33795a80dd9627d8d7a2c9bd22e5dfaaee0c61ac2263471f97ec0dae90bd67f51222ccb98e5b6a277
   languageName: node
   linkType: hard
 
@@ -3616,6 +3618,20 @@ __metadata:
     no-case: "npm:^3.0.4"
     tslib: "npm:^2.0.3"
   checksum: 951f9f8423106c57ba5f078e5d81cf810a94d20b16e50ea26369942b634bb30789677756a267320907b250b8c0432b598da719ade592c727968bb1f8cfefa8c6
+  languageName: node
+  linkType: hard
+
+"dotenv-expand@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "dotenv-expand@npm:9.0.0"
+  checksum: be5569f785d9eabe655beb947cce8bb39b45f7788cea09ad4f68157aea71addaf07f8e7f07cf1458d5504e76ffe65a4f7124f109a0315a766387d2039a499992
+  languageName: node
+  linkType: hard
+
+"dotenv@npm:^16.0.3":
+  version: 16.0.3
+  resolution: "dotenv@npm:16.0.3"
+  checksum: abce82d99b45e2ebbd42625a78cadbfafe03072c15e6538b6a3a7ed204b6e091c0de929dd09231edc61f78afbdcd5b8a2f21b9e933e8ab27d75bee865a0e58c9
   languageName: node
   linkType: hard
 
