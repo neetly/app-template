@@ -16,7 +16,7 @@
     "react-router-dom": "^6.15.0"
   },
   "devDependencies": {
-    "@neetly/eslint-config": "^0.5.1",
+    "@neetly/eslint-config": "^0.6.0",
     "@neetly/tsconfig": "^0.3.0",
     "@prettier/plugin-xml": "^3.2.0",
     "buncho": "^6.1.0",
